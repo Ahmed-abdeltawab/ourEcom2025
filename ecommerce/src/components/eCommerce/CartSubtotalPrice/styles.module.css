@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.container span {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.darkModalBody {
+  background-color: #222;
+  color: white;
+}
+
+.darkModalHeader {
+  background-color: #333;
+  color: white;
+  border-bottom: 1px solid #444;
+}
+
+.darkModalFooter {
+  background-color: #333;
+  border-top: 1px solid #444;
+}

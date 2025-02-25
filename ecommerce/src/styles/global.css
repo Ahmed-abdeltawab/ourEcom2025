@@ -1,0 +1,44 @@
+.notFound {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.notFound h1 {
+  font-size: 130px;
+}
+.notFound p {
+  font-size: 50px;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Ensure white text in dark mode */
+button {
+  color: var(--button-text-color, #000);
+}
+
+[data-theme="dark"] button {
+  color: #fff !important;
+}
