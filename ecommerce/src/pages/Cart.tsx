@@ -32,7 +32,7 @@ const Cart = () => {
           </>
         ) : placeOrderStatus === "succeeded" ? (
           <LottieHandler
-            message="Your order has been placed successfully"
+            message={t("Your order has been placed successfully")}
             type="success"
           />
         ) : (

@@ -305,6 +305,13 @@
     }
   ],
   "users": [
+    {
+      "email": "mohtady@gmail.com",
+      "password": "$2a$10$lTJzhm/d05GEU.FIYSWFP.wWQBUJzqLIP2LboX52O3glvXTTphTXC",
+      "firstName": "Mohtady",
+      "lastName": "Sameh",
+      "id": 1
+    }
   ],
   "orders": [
     {
@@ -411,6 +418,34 @@
       ],
       "subtotal": 249,
       "id": 2
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": 14,
+          "title": "Sweatshirt shorts",
+          "price": "300.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:2ed591e0-e808-4350-9e69-06623a958fcd/as/EID-ff764893e768b681d7598fcbd9fd69f8bb9ac429.jpg?preferwebp=true&height=630",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 300,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": 14,
+          "title": "Sweatshirt shorts",
+          "price": "300.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:2ed591e0-e808-4350-9e69-06623a958fcd/as/EID-ff764893e768b681d7598fcbd9fd69f8bb9ac429.jpg?preferwebp=true&height=630",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 300,
+      "id": 4
     }
   ]
 }
