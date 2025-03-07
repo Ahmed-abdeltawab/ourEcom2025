@@ -3,6 +3,7 @@ import useLogin from "@hooks/useLogin";
 import { Heading } from "@components/common";
 import { Input } from "@components/Form";
 import { Form, Button, Row, Col, Alert, Spinner } from "react-bootstrap";
+import { t } from "i18next";
 
 const Login = () => {
   const {
@@ -22,31 +23,31 @@ const Login = () => {
 
   return (
     <>
-      <Heading title="User Login" />
+      <Heading title={t("login")} />
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
           {searchParams.get("message") === "login_required" && (
             <Alert variant="success">
-              You need to login to view this content
+             {t("login message")}
             </Alert>
           )}
 
           {searchParams.get("message") === "account_created" && (
             <Alert variant="success">
-              Your account successfully created, please login
+              {t("success")}
             </Alert>
           )}
           <Form onSubmit={handleSubmit(submitForm)}>
             <Input
               name="email"
-              label="Email Address"
+              label={t("email")}
               register={register}
               error={formErrors.email?.message}
             />
             <Input
               type="password"
               name="password"
-              label="Password"
+              label={t("password")}
               register={register}
               error={formErrors.password?.message}
             />
@@ -56,7 +57,7 @@ const Login = () => {
                   <Spinner animation="border" size="sm"></Spinner> Loading...
                 </>
               ) : (
-                "Submit"
+                t("submit")
               )}
             </Button>
 

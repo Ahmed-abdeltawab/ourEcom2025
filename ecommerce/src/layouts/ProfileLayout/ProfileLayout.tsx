@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import { Row, Col, ListGroup } from "react-bootstrap";
 import { NavLink, Outlet } from "react-router-dom";
 
@@ -7,10 +8,10 @@ const ProfileLayout = () => {
       <Col md={3}>
         <ListGroup>
           <ListGroup.Item as={NavLink} to="" end>
-            Account Info
+            {t("account info")}
           </ListGroup.Item>
           <ListGroup.Item as={NavLink} to="orders">
-            Orders
+            {t("orders")}
           </ListGroup.Item>
         </ListGroup>
       </Col>

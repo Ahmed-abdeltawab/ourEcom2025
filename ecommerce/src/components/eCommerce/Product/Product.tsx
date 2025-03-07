@@ -1,5 +1,5 @@
 import { useEffect, useState, memo } from "react";
-import { useAppDispatch } from "@store/hooks";
+import { useAppDispatch, useAppSelector } from "@store/hooks";
 import { actLikeToggle } from "@store/wishlist/wishlistSlice";
 import { addToCart } from "@store/cart/cartSlice";
 import Like from "@assets/svg/like.svg?react";
@@ -23,6 +23,7 @@ const Product = memo(
     isAuthenticated,
   }: TProduct) => {
     const dispatch = useAppDispatch();
+    const { mode } = useAppSelector((state) => state.theme);
 
     const [showModal, setShowModal] = useState(false);
     const [isBtnDisabled, setIsBtnDisabled] = useState(false);
@@ -66,13 +67,17 @@ const Product = memo(
 
     return (
       <>
-        <Modal show={showModal} onHide={() => setShowModal(false)}>
-          <Modal.Header closeButton>
-            <Modal.Title>{t("login required")}</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
+        <Modal
+          show={showModal}
+          onHide={() => setShowModal(false)}
+          contentClassName={mode === "dark" ? "bg-dark text-light" : ""}
+        >
+        <Modal.Header closeButton className={mode === "dark" ? "border-secondary" : ""}>
+        <Modal.Title>{t("login required")}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
           {t("login message")}
-          </Modal.Body>
+        </Modal.Body>
         </Modal>
 
         <ProductInfo title={title} price={price} img={img}>

@@ -1,6 +1,7 @@
 .headerLeftBar {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .headerLeftBar > div:first-of-type {
@@ -11,4 +12,11 @@
 
 .iconDark {
   filter: invert(1); 
+}
+
+/* Divider always stays between Wishlist and Cart */
+.divider {
+  margin: 0 10px;
+  font-weight: bold;
+  color: black;
 }

@@ -49,7 +49,7 @@
   "products": [
     {
       "id": 1,
-      "title": "Regular Fit Jersey top",
+      "title": "Casual Outfit",
       "price": "249.00",
       "cat_prefix": "men",
       "img": "https://static.zara.net/assets/public/a2ba/6c8c/b3fb4545b009/975ba9dad183/02142411600-p/02142411600-p.jpg?ts=1737968065427&w=563",
@@ -57,7 +57,7 @@
     },
     {
       "id": 2,
-      "title": "Regular Fit Jersey top",
+      "title": "Chino Pants",
       "price": "229.00",
       "cat_prefix": "men",
       "img": "https://static.zara.net/assets/public/4774/3a7b/fcef4465b6ff/f8ac174a3b5d/04083407600-e1/04083407600-e1.jpg?ts=1738056721172&w=315",
@@ -73,6 +73,78 @@
     },
     {
       "id": 4,
+      "title": "Slim fit chinos",
+      "price": "200.00",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:fecd13e4-f8ba-4d69-8e31-231e3f8a6662/as/EID-e9da4e1092f70526968d2f11c8daf521318690eb.jpg?preferwebp=true&height=630",
+      "max": 4
+    },
+    {
+      "id": 5,
+      "title": "Slim fit chinos",
+      "price": "1699",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:9e6c0fe1-79fc-4f82-ac86-26320cafa98e/as/EID-06a2c81ad4da0e9212a32234da50ee1e6ad88311.jpg?width=2000&height=675&preferwebp=true&format=webply",
+      "max": 4
+    },
+    {
+      "id": 6,
+      "title": "Oxford shirt",
+      "price": "200.00",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:9d0a04fc-f82c-45a0-ba0b-86e8fc807eb9/as/EID-dcbfbefcc617878450c1352a62479ecc768746f9.jpg?width=2000&height=675&preferwebp=true&format=webply",
+      "max": 4
+    },
+    {
+      "id": 7,
+      "title": "Sweatpants",
+      "price": "200.00",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:5ff311d9-d198-4b2f-92f9-6901fcb6634d/as/EID-27b336bddbd27eef848fd0f99568eaad2f8e54a7.jpg?width=2000&height=675&preferwebp=true&format=webply",
+      "max": 4
+    },
+    {
+      "id": 8,
+      "title": "Loose Fit Tailored",
+      "price": "200.00",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:cd1c9dfd-f668-4163-b142-bedc3bb51b9c/as/EID-ed820dd097ed2aab87cc0ee90aaad46161fd928c.jpg?width=2000&height=675&preferwebp=true&format=webply",
+      "max": 4
+    },
+    {
+      "id": 9,
+      "title": "Tapered Jeans",
+      "price": "200.00",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:2823a2ee-9545-49ab-850c-3610a16ddc6b/as/EID-6833892d204e34fafa71c678e03c64808dc6824c.jpg?preferwebp=true&height=630",
+      "max": 4
+    },
+    {
+      "id": 10,
+      "title": "Baggy Jeans",
+      "price": "200.00",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:28936e70-c14a-4c5e-99ff-f7672d846e70/as/EID-98990058cb51061255232a9b4beca5725464ba28.jpg?width=450&height=675&preferwebp=true",
+      "max": 4
+    },
+    {
+      "id": 11,
+      "title": "Coated Shirt",
+      "price": "200.00",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:5da8034a-e0c5-4994-99c6-e799ea6178d8/as/EID-e298ff42dfd84d61417c2137367d2ef94279eb7c.jpg?width=450&height=675&preferwebp=true",
+      "max": 4
+    },
+    {
+      "id": 12,
+      "title": "Slim Fit iron shirt",
+      "price": "200.00",
+      "cat_prefix": "men",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:02c0493c-2132-4118-b4f3-02aaffe7a23b/as/EID-db528a341385f7b245208571175867d913d743f0.jpg?width=450&height=675&preferwebp=true",
+      "max": 4
+    },
+    {
+      "id": 13,
       "title": "Cotton t-shirt",
       "price": "100.00",
       "cat_prefix": "women",
@@ -80,7 +152,7 @@
       "max": 4
     },
     {
-      "id": 5,
+      "id": 14,
       "title": "Sweatshirt shorts",
       "price": "300.00",
       "cat_prefix": "women",
@@ -88,7 +160,55 @@
       "max": 4
     },
     {
-      "id": 6,
+      "id": 15,
+      "title": "Tie-belt shirt dress",
+      "price": "300.00",
+      "cat_prefix": "women",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:763da581-4c51-4e6d-96f2-4ca4b3d4db19/as/EID-090d82930a2ddb03ae8e94316386c1359266f036.jpg?preferwebp=true&height=630",
+      "max": 4
+    },
+    {
+      "id": 16,
+      "title": "Pintucked blouse",
+      "price": "300.00",
+      "cat_prefix": "women",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:1fc56aa6-62ed-455a-9076-64af8aae71ed/as/EID-63badb3e402d15fba3394f989301339c9347cef4.jpg?width=450&height=675&preferwebp=true",
+      "max": 4
+    },
+    {
+      "id": 17,
+      "title": "Button-front top",
+      "price": "300.00",
+      "cat_prefix": "women",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:23fe462f-11bd-405e-bfc3-3f14079c8d37/as/EID-25dde59cb61f9ce7e75233f0fdc1a8627f6c48e8.jpg?width=450&height=675&preferwebp=true",
+      "max": 4
+    },
+    {
+      "id": 18,
+      "title": "Printed T-Shirt",
+      "price": "300.00",
+      "cat_prefix": "women",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:88413658-58cb-41d2-b82f-d512fc5c1bd2/as/EID-4580cf52e89c6ad272977cf11744016224993ddc.jpg?width=450&height=675&preferwebp=true",
+      "max": 4
+    },
+    {
+      "id": 19,
+      "title": "Picot-trimmed top",
+      "price": "300.00",
+      "cat_prefix": "women",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:3ad5a85a-03e0-41ca-ab42-30272dad514c/as/EID-2e2bff072a1a926b4974659774e8bffbb925dca3.jpg?width=450&height=675&preferwebp=true",
+      "max": 4
+    },
+    {
+      "id": 20,
+      "title": "Off-the-shoulder",
+      "price": "300.00",
+      "cat_prefix": "women",
+      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:c1520887-497e-481c-b33f-0c345446d39a/as/EID-da24bbc991ca42a39e4f4e6e16bd6f06fbf3ba1f.jpg?width=450&height=675&preferwebp=true",
+      "max": 4
+    },
+    {
+      "id": 21,
       "title": "Velour top",
       "price": "300.00",
       "cat_prefix": "kids",
@@ -96,7 +216,7 @@
       "max": 4
     },
     {
-      "id": 9,
+      "id": 22,
       "title": "Pile all-in-one suit with ears",
       "price": "500.00",
       "cat_prefix": "baby",
@@ -104,7 +224,7 @@
       "max": 4
     },
     {
-      "id": 17,
+      "id": 23,
       "title": "Regular Fit football shirt",
       "price": "449.00",
       "cat_prefix": "sport",
@@ -112,92 +232,98 @@
       "max": 4
     }
   ],
-  
-  "wishlist": [],
-
-  "users": [],
-
+  "wishlist": [
+    {
+      "userId": 1,
+      "productId": 6,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 9,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "productId": 5,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "productId": 15,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "productId": 17,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "productId": 16,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "productId": 14,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "productId": 18,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "productId": 19,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "productId": 13,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "productId": 20,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "productId": 21,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "productId": 22,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "productId": 23,
+      "id": 14
+    }
+  ],
+  "users": [
+  ],
   "orders": [
     {
       "userId": 1,
       "items": [
         {
-          "id": 2,
-          "title": "Regular Fit Jersey top",
-          "price": "229.00",
-          "img": "https://static.zara.net/assets/public/4774/3a7b/fcef4465b6ff/f8ac174a3b5d/04083407600-e1/04083407600-e1.jpg?ts=1738056721172&w=315",
-          "quantity": 3
-        }
-      ],
-      "subtotal": 687,
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "items": [
-        {
-          "id": 6,
-          "title": "Velour top",
-          "price": "300.00",
-          "img": "https://image.hm.com/assets/hm/1d/cc/1dccb1e76e975fee4679ad3fec892e2decf87da9.jpg?imwidth=1536",
-          "quantity": 2
-        }
-      ],
-      "subtotal": 600,
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "items": [
-        {
-          "id": 4,
-          "title": "Cotton t-shirt",
-          "price": "100.00",
-          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:3dee9378-7b91-4307-82a0-da3a89556f0e/as/EID-a1f66962d1b42ac92b245261cad84e10e027b824.jpg?preferwebp=true&height=630",
-          "quantity": 2
+          "id": 1,
+          "title": "Casual Outfit",
+          "price": "249.00",
+          "img": "https://static.zara.net/assets/public/a2ba/6c8c/b3fb4545b009/975ba9dad183/02142411600-p/02142411600-p.jpg?ts=1737968065427&w=563",
+          "quantity": 1
         },
         {
-          "id": 5,
-          "title": "Sweatshirt shorts",
-          "price": "300.00",
-          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:2ed591e0-e808-4350-9e69-06623a958fcd/as/EID-ff764893e768b681d7598fcbd9fd69f8bb9ac429.jpg?preferwebp=true&height=630",
+          "id": 2,
+          "title": "Chino Pants",
+          "price": "229.00",
+          "img": "https://static.zara.net/assets/public/4774/3a7b/fcef4465b6ff/f8ac174a3b5d/04083407600-e1/04083407600-e1.jpg?ts=1738056721172&w=315",
           "quantity": 1
-        }
-      ],
-      "subtotal": 500,
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "items": [
-        {
-          "id": 5,
-          "title": "Sweatshirt shorts",
-          "price": "300.00",
-          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:2ed591e0-e808-4350-9e69-06623a958fcd/as/EID-ff764893e768b681d7598fcbd9fd69f8bb9ac429.jpg?preferwebp=true&height=630",
-          "quantity": 2
-        }
-      ],
-      "subtotal": 600,
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "items": [
-        {
-          "id": 5,
-          "title": "Sweatshirt shorts",
-          "price": "300.00",
-          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:2ed591e0-e808-4350-9e69-06623a958fcd/as/EID-ff764893e768b681d7598fcbd9fd69f8bb9ac429.jpg?preferwebp=true&height=630",
-          "quantity": 2
-        }
-      ],
-      "subtotal": 600,
-      "id": 5
-    },
-    {
-      "userId": 1,
-      "items": [
+        },
         {
           "id": 3,
           "title": "Cotton polo shirt",
@@ -207,35 +333,84 @@
         },
         {
           "id": 4,
-          "title": "Cotton t-shirt",
-          "price": "100.00",
-          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:3dee9378-7b91-4307-82a0-da3a89556f0e/as/EID-a1f66962d1b42ac92b245261cad84e10e027b824.jpg?preferwebp=true&height=630",
+          "title": "Slim fit chinos",
+          "price": "200.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:fecd13e4-f8ba-4d69-8e31-231e3f8a6662/as/EID-e9da4e1092f70526968d2f11c8daf521318690eb.jpg?preferwebp=true&height=630",
           "quantity": 1
         },
         {
           "id": 5,
-          "title": "Sweatshirt shorts",
-          "price": "300.00",
-          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:2ed591e0-e808-4350-9e69-06623a958fcd/as/EID-ff764893e768b681d7598fcbd9fd69f8bb9ac429.jpg?preferwebp=true&height=630",
+          "title": "Slim fit chinos",
+          "price": "1699",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:9e6c0fe1-79fc-4f82-ac86-26320cafa98e/as/EID-06a2c81ad4da0e9212a32234da50ee1e6ad88311.jpg?width=2000&height=675&preferwebp=true&format=webply",
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "title": "Oxford shirt",
+          "price": "200.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:9d0a04fc-f82c-45a0-ba0b-86e8fc807eb9/as/EID-dcbfbefcc617878450c1352a62479ecc768746f9.jpg?width=2000&height=675&preferwebp=true&format=webply",
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "title": "Sweatpants",
+          "price": "200.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:5ff311d9-d198-4b2f-92f9-6901fcb6634d/as/EID-27b336bddbd27eef848fd0f99568eaad2f8e54a7.jpg?width=2000&height=675&preferwebp=true&format=webply",
+          "quantity": 2
+        },
+        {
+          "id": 8,
+          "title": "Loose Fit Tailored",
+          "price": "200.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:cd1c9dfd-f668-4163-b142-bedc3bb51b9c/as/EID-ed820dd097ed2aab87cc0ee90aaad46161fd928c.jpg?width=2000&height=675&preferwebp=true&format=webply",
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "title": "Tapered Jeans",
+          "price": "200.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:2823a2ee-9545-49ab-850c-3610a16ddc6b/as/EID-6833892d204e34fafa71c678e03c64808dc6824c.jpg?preferwebp=true&height=630",
+          "quantity": 1
+        },
+        {
+          "id": 10,
+          "title": "Baggy Jeans",
+          "price": "200.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:28936e70-c14a-4c5e-99ff-f7672d846e70/as/EID-98990058cb51061255232a9b4beca5725464ba28.jpg?width=450&height=675&preferwebp=true",
+          "quantity": 1
+        },
+        {
+          "id": 11,
+          "title": "Coated Shirt",
+          "price": "200.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:5da8034a-e0c5-4994-99c6-e799ea6178d8/as/EID-e298ff42dfd84d61417c2137367d2ef94279eb7c.jpg?width=450&height=675&preferwebp=true",
+          "quantity": 1
+        },
+        {
+          "id": 12,
+          "title": "Slim Fit iron shirt",
+          "price": "200.00",
+          "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:02c0493c-2132-4118-b4f3-02aaffe7a23b/as/EID-db528a341385f7b245208571175867d913d743f0.jpg?width=450&height=675&preferwebp=true",
           "quantity": 1
         }
       ],
-      "subtotal": 600,
-      "id": 6
+      "subtotal": 4377,
+      "id": 1
     },
     {
       "userId": 1,
       "items": [
         {
-          "id": 6,
-          "title": "Velour top",
-          "price": "300.00",
-          "img": "https://image.hm.com/assets/hm/1d/cc/1dccb1e76e975fee4679ad3fec892e2decf87da9.jpg?imwidth=1536",
+          "id": 1,
+          "title": "Casual Outfit",
+          "price": "249.00",
+          "img": "https://static.zara.net/assets/public/a2ba/6c8c/b3fb4545b009/975ba9dad183/02142411600-p/02142411600-p.jpg?ts=1737968065427&w=563",
           "quantity": 1
         }
       ],
-      "subtotal": 300,
-      "id": 7
+      "subtotal": 249,
+      "id": 2
     }
   ]
 }

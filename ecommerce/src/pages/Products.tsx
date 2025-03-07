@@ -3,12 +3,10 @@ import { GridList } from "@components/common";
 import { Product } from "@components/eCommerce";
 import { Loading } from "@components/feedback";
 import { TProduct } from "@types";
-import useCategories from "@hooks/useCategories";
 
 const Products = () => {
   const { loading, error , productsFullInfo } = useProducts();
-  const {records: categories} = useCategories();
-  console.log(categories[0]?.title.ar);
+  
   return (
     <>
       {/* <Heading title={`${productPrefix?.toUpperCase()} Products`} /> */}

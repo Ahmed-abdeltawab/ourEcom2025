@@ -3,6 +3,7 @@ import { Navigate } from "react-router-dom";
 import { Heading } from "@components/common";
 import { Input } from "@components/Form";
 import { Form, Button, Row, Col, Spinner } from "react-bootstrap";
+import { t } from "i18next";
 
 const Register = () => {
   const {
@@ -23,24 +24,24 @@ const Register = () => {
 
   return (
     <>
-      <Heading title="User Registration" />
+      <Heading title={t("register")} />
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
           <Form onSubmit={handleSubmit(submitForm)}>
             <Input
-              label="First Name"
+              label={t("first name")}
               name="firstName"
               register={register}
               error={formErrors.firstName?.message}
             />
             <Input
-              label="Last Name"
+              label= {t("last name")}
               name="lastName"
               register={register}
               error={formErrors.lastName?.message}
             />
             <Input
-              label="Email Address"
+              label={t("email")}
               name="email"
               register={register}
               onBlur={emailOnBlurHandler}
@@ -67,14 +68,14 @@ const Register = () => {
             />
             <Input
               type="password"
-              label="Password"
+              label={t("password")}
               name="password"
               register={register}
               error={formErrors.password?.message}
             />
             <Input
               type="password"
-              label="Confirm Password"
+              label={t("confirm password")}
               name="confirmPassword"
               register={register}
               error={formErrors.confirmPassword?.message}
@@ -94,7 +95,7 @@ const Register = () => {
                   <Spinner animation="border" size="sm"></Spinner> Loading...
                 </>
               ) : (
-                "Submit"
+                t("submit")
               )}
             </Button>
             {error && (

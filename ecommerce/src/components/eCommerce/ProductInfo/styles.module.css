@@ -1,6 +1,7 @@
 /* column dir */
 .product-column {
-    display: flex;
+  display: flex;
+  gap: 20px;
   }
   
   .product-column h2 {

@@ -40,7 +40,7 @@ const Orders = () => {
         </Modal.Body>
       </Modal>
 
-      <Heading title="My Order" />
+      <Heading title={t("orders")} />
       <Loading status={loading} error={error} type="table">
         <Table>
           <thead>
@@ -55,7 +55,7 @@ const Orders = () => {
               <tr key={el.id}>
                 <td>#{el.id}</td>
                 <td>
-                  {el.items.length} item(s)
+                  {el.items.length} {t("item")}
                   {" / "}
                   <span
                     onClick={() => viewDetailsHandler(el.id)}

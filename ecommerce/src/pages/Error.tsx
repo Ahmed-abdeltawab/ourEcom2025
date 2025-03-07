@@ -1,6 +1,7 @@
 import { LottieHandler } from "@components/feedback";
 import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
+import { t } from "i18next";
 
 const Error = () => {
   return (
@@ -11,7 +12,7 @@ const Error = () => {
       >
         <LottieHandler type="notFound" />
         <Link to="/" replace={true}>
-          How about going back to safety?
+          {t("How about going back to safety?")}
         </Link>
       </div>
     </Container>
