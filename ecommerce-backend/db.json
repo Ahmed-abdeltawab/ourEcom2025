@@ -305,13 +305,6 @@
     }
   ],
   "users": [
-    {
-      "email": "mohtady@gmail.com",
-      "password": "$2a$10$lTJzhm/d05GEU.FIYSWFP.wWQBUJzqLIP2LboX52O3glvXTTphTXC",
-      "firstName": "Mohtady",
-      "lastName": "Sameh",
-      "id": 1
-    }
   ],
   "orders": [
     {
