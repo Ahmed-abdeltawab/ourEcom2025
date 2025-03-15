@@ -16,7 +16,7 @@ const GridList = <T extends { id?: number }>({
     records.length > 0 ? (
       records.map((record) => (
         <Col
-          xs={3}
+          xs={4}
           key={record.id}
           className="d-flex justify-content-center mb-5 mt-2"
         >
@@ -26,7 +26,9 @@ const GridList = <T extends { id?: number }>({
     ) : (
       <LottieHandler type="empty" message={emptyMessage} />
     );
-  return <Row>{renderList}</Row>;
+  return <Row 
+    className = "justify-content-center fade-in "
+  >{renderList}</Row>;
 };
 
 export default GridList;

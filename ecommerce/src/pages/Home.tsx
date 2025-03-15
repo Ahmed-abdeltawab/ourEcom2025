@@ -7,11 +7,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import "swiper/css/parallax";
-import img1 from "../assets/imges/Screenshot 2025-03-04 065157.png";
-import img2 from "../assets/imges/Screenshot 2025-03-04 061932.png";
-import img3 from "../assets/imges/Screenshot 2025-03-04 062049.png";
-import img4 from "../assets/imges/Screenshot 2025-03-04 062451.png";
+import img1 from "../assets/imges/Screenshot 2025-03-13 195455.png";
+import img2 from "../assets/imges/Screenshot 2025-03-13 195829.png";
+import img3 from "../assets/imges/Screenshot 2025-03-04 062451.png";
+import img4 from "../assets/imges/Screenshot 2025-03-04 062049.png";
 import img5 from "../assets/imges/Screenshot 2025-03-04 062704.png";
+import img6 from "../assets/imges/Beverly-Hills-Magazine-Stylish-Kids_-How-to-Fashionably-Dress-Your-Kids-min.jpg";
+import img7 from "../assets/imges/Screenshot 2025-03-13 195746.png";
 import { useAppSelector } from "@store/hooks";
 
 const slides = [
@@ -19,7 +21,9 @@ const slides = [
   { id: 2, image: img2, title: { en: "Shop the Latest Trends", ar: "تسوق أحدث الصيحات" } },
   { id: 3, image: img3, title: { en: "Unmatched Quality & Prices", ar: "جودة وأسعار لا مثيل لها" } },
   { id: 4, image: img4, title: { en: "Exclusive Discounts", ar: "خصومات حصرية" } },
-  { id: 5, image: img5, title: { en: "Limited Time Offers", ar: "عروض لفترة محدودة" } },
+  { id: 5, image: img5, title: { en: "Discover Amazing Deals", ar: "اكتشف عروض مذهلة" } },
+  { id: 6, image: img6, title: {  en: "Shop the Latest Trends", ar: "تسوق أحدث الصيحات"  } },
+  { id: 7, image: img7, title: { en: "Limited Time Offers", ar: "عروض لفترة محدودة" } },
 ];
 
 const Home = () => {
@@ -33,7 +37,7 @@ const Home = () => {
   }, [i18n.language]);
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto p-4">
+    <div className="relative w-full max-w-6xl mx-auto p-4 fade-in">
       <Swiper
         key={key}
         modules={[Navigation, Pagination, Autoplay, EffectCoverflow, Parallax]}
