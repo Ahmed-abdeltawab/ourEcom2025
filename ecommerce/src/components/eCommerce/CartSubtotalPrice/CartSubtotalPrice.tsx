@@ -1,109 +1,29 @@
-import { useAppDispatch, useAppSelector } from "@store/hooks"; 
-import { actPlaceOrder } from "@store/orders/ordersSlice";
-import { clearCartAfterPlaceOrder } from "@store/cart/cartSlice";
-import { useState } from "react";
-import { TProduct } from "@types";
-import { Button, Modal, Spinner } from "react-bootstrap";
-import styles from "./styles.module.css";
-import { t } from "i18next";
+import { TProduct } from '@types'
+import styles from './styles.module.css'
+import { t } from 'i18next'
 type CartSubtotalPriceProps = {
-  products: TProduct[];
-  userAccessToken: string | null;
-};
+  products: TProduct[]
+}
 
-const CartSubtotalPrice = ({
-  products,
-  userAccessToken,
-}: CartSubtotalPriceProps) => {
-  const dispatch = useAppDispatch();
-  const mode = useAppSelector((state) => state.theme.mode); 
-
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [showModal, setShowModal] = useState(false);
-
+const CartSubtotalPrice = ({ products }: CartSubtotalPriceProps) => {
   const subtotal = products.reduce((accumulator, el) => {
-    const price = el.price;
-    const quantity = el.quantity;
-    if (quantity && typeof quantity === "number") {
-      return accumulator + price * quantity;
+    const price = el.price
+    const quantity = el.quantity
+    if (quantity && typeof quantity === 'number') {
+      return accumulator + price * quantity
     } else {
-      return accumulator;
+      return accumulator
     }
-  }, 0);
-
-  const modalHandler = () => {
-    setShowModal(!showModal);
-    setError(null);
-  };
-
-  const placeOrderHandler = () => {
-    setLoading(true);
-    dispatch(actPlaceOrder(subtotal))
-      .unwrap()
-      .then(() => {
-        dispatch(clearCartAfterPlaceOrder());
-        setShowModal(false);
-      })
-      .catch((error) => {
-        setError(error);
-      })
-      .finally(() => setLoading(false));
-  };
+  }, 0)
 
   return (
     <>
-      <Modal show={showModal} onHide={modalHandler} backdrop="static">
-        <Modal.Header closeButton className={mode === "dark" ? styles.darkModalHeader : ""}>
-          <Modal.Title>{t("placing order")}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body className={mode === "dark" ? styles.darkModalBody : ""}>
-          {t("placing message")}{" "}
-          {subtotal.toFixed(2)} EGP
-          {!loading && error && (
-            <p style={{ color: "#DC3545", marginTop: "10px" }}>{error}</p>
-          )}
-        </Modal.Body>
-        <Modal.Footer className={mode === "dark" ? styles.darkModalFooter : ""}>
-          <Button variant="secondary" onClick={modalHandler}>
-            {t("close")}
-          </Button>
-          <Button
-            variant="info"
-            style={{ color: "white" }}
-            onClick={placeOrderHandler}
-          >
-            {loading ? (
-              <>
-                <Spinner animation="border" size="sm"></Spinner> Loading...
-              </>
-            ) : (
-              t("confirm")
-            )}
-          </Button>
-        </Modal.Footer>
-      </Modal>
-      
       <div className={styles.container}>
-        <span>{t("total")}</span>
+        <span>{t('total')}</span>
         <span>{subtotal.toFixed(2)} EGP</span>
       </div>
-      {userAccessToken && (
-        <div className={styles.container}>
-          <span> </span>
-          <span>
-            <Button
-              variant="info"
-              style={{ color: "white" }}
-              onClick={modalHandler}
-            >
-            {t("place order")}
-            </Button>
-          </span>
-        </div>
-      )}
     </>
-  );
-};
+  )
+}
 
-export default CartSubtotalPrice;
+export default CartSubtotalPrice
